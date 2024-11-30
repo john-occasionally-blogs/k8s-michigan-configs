@@ -23,6 +23,9 @@ spec:
         - name: michigan-content
           mountPath: /usr/local/nginx/htdocs/index.html
           subPath: index.html
+        - name: michigan-content
+          mountPath: /usr/local/nginx/htdocs/favicon.ico
+          subPath: favicon.ico
       volumes:
       - name: michigan-content
         configMap:
