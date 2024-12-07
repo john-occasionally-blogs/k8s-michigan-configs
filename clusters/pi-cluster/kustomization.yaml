@@ -9,6 +9,6 @@ spec:
     kind: GitRepository
     name: k8s-michigan-configs
     namespace: flux-system
-  path: ./clusters/pi-cluster
+  path: ./clusters/pi-cluster/apps
   prune: true
   targetNamespace: default
